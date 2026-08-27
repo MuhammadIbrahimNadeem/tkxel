@@ -1279,6 +1279,13 @@
   border-bottom-left-radius: 2px;
 }
 
+.chat-timestamp {
+  font-size: 9.5px;
+  color: var(--text-muted);
+  margin-top: 2px;
+  padding: 0 4px;
+}
+
 .chat-input-wrapper {
   display: flex;
   flex-direction: column;

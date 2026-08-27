@@ -17,16 +17,15 @@ export const Sidebar: React.FC = () => {
           {!collapsed ? (
             <>
               <div className="sidebar-brand">
-                <div className="brand-logo-container" title="Cloud Comm">
+                <div className="brand-logo-container" title="Occasion Letters">
                   <img
                     src="/cloud_comm_logo.svg"
-                    alt="Cloud Comm Logo"
+                    alt="Logo"
                     className="brand-logo-img"
                   />
                 </div>
                 <div className="brand-text">
                   <span className="brand-title">Occasion Letters</span>
-                  <span className="brand-subtitle">Cloud Comms</span>
                 </div>
               </div>
               <button
@@ -40,10 +39,10 @@ export const Sidebar: React.FC = () => {
             </>
           ) : (
             <div className="collapsed-header-stack">
-              <div className="brand-logo-container collapsed" title="Cloud Comm">
+              <div className="brand-logo-container collapsed" title="Occasion Letters">
                 <img
                   src="/cloud_comm_logo.svg"
-                  alt="Cloud Comm Logo"
+                  alt="Logo"
                   className="brand-logo-img collapsed"
                 />
               </div>
